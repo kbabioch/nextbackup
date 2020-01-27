@@ -31,6 +31,8 @@ Activate the app:
 occ app:enable nextbackup
 ```
 
+The app will automatically start running from this point onward without any additional configuration. This requires correctly setup [background jobs](https://docs.nextcloud.com/server/latest/admin_manual/configuration_server/background_jobs_configuration.html?highlight=cron), which are needed for a correctly working Nextcloud installation anyway.
+
 ## Screenshot
 ![Screenhot](screenshot.png)
 
